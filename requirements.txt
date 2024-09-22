@@ -1,0 +1,8 @@
+Flask==2.3.2               # For building the API
+pandas==2.0.3              # For handling and manipulating data
+scikit-learn==1.3.0        # For machine learning model training
+numpy==1.24.4              # For numerical computations
+gunicorn==20.1.0           # WSGI HTTP server for deploying Flask app
+SQLAlchemy==2.0.17         # For database interactions (optional if using a database)
+alembic==1.12.0            # For database migrations (optional, if needed)
+psycopg2-binary==2.9.7     # PostgreSQL adapter (if using PostgreSQL)

@@ -1,0 +1,39 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directory
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE or Editor directories
+.vscode/
+.idea/
+*.suo
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Model files
+model.pkl
+
+# Database files
+*.sqlite3
+
+# Log files
+*.log
+
+# Data files
+data/*.csv
+data/*.xlsx
+
+# Migrations directory (if not using version control for migrations)
+migrations/
